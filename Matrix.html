@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+ <head>
+    <!-- The Matrix -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <link rel="stylesheet" href="Matrix.css">
+    <link rel="icon" type="image" href="matrix-6876842_960_720.png">
+  </head>
+  <body>
+    <header>
+        <nav>
+            <a class="logo" >Matrix</a>
+          </nav>
+    </header>
+    <div></div>
+    <h1 id="title" ></h1>
+    <h2></h2>
+    
+    <form id="survey-form">
+      <fieldset>
+<label for="first-name">Name <input placeholder="?" id="namelabel" name="first-name" type="text" required /></label>
+<label for="email">E-mail <input placeholder="" id="email-label" name="email" type="text" required /></label>
+<label for="age">Age<input placeholder="" id="number-label" name="age" pattern="[a-z0-5]{8,}" min="12" max="140" type="number"  /></label>
+      </fieldset >
+      <div>
+      </div>
+      <fieldset>
+      <legend>Do you feel blind to the truth ?</legend>
+      <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline"  /> Definitely</label>
+      <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline"   /> Maybe</label>
+      <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline"  /> Not sure</label>
+      </fieldset>
+      <div id="frr"><p>All i am offering is the truth,</p>
+        </div>
+      <fieldset>
+        
+        <legend>Take Your Pill</legend>
+        <label  for="red"><input id="personal-account-red" type="radio" name="pill" class="inline" value="blue"  /> </label>
+        <label for="personal-account"><input id="personal-account-blue" type="radio" name="pill" class="inline" value="red" /> </label>
+        </fieldset>
+        <p>Not more.</p>
+
+  </body>
+  <script src="Matrix.js"></script>
+  <div></div>
+  <footer> <input id="epiphany" type="submit" class="Submit" />© 2023 David Dourado - Todos os direitos reservados  daviddourado@usp.br</footer>
+</html>
