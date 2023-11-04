@@ -77,6 +77,7 @@ body{
     overflow: hidden;
     font-family: Courier;
     background-color: rgba(0, 0, 0, 0.966);
+    margin: auto;
     
   }
   input{
@@ -135,4 +136,42 @@ body{
         border: green;
         border-radius: 11px;
     }
-      
+      h3 {
+        text-align: center;
+        color: green;
+        font-family: monospace;
+        
+        padding: 2rem 0;
+        border: none;
+    border-bottom: 3px solid #0abb0a;
+    border-top: 1px solid #0abb0a;
+    text-align: center;
+    font-size: 33px;
+    border-radius: 8px 20px;
+    width: 500px;
+    overflow: hidden;
+    font-family: Courier;
+    background-color: rgba(0, 0, 0, 0.966);
+        margin: auto;
+      }
+      .cl{
+        text-align: center;
+        color: green;
+        font-family: monospace;
+        padding: 2rem 0;
+        padding-top: 5%;
+        border: none;
+    border-bottom: 2px solid #0abb0a;
+    border-top: 2px solid #0abb0a;
+    border-left: 2px solid #0abb0a;
+    text-align:  left;
+     font-size: 20px;
+    border-radius: 020px 20px;
+    width: 90%;
+    overflow: hidden;
+    font-family: Courier;
+    background-color: rgb(0, 0, 0);
+        margin: auto;
+        
+       
+      }
