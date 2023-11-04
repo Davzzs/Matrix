@@ -5,6 +5,12 @@ body{
     font-family: monospace;
 
   }
+  a {
+    text-decoration: none;
+    color: #0abb0a;
+    font-family: Courier;
+  }
+
   * {
     margin: 0;
     padding: 0;
@@ -17,17 +23,19 @@ body{
   nav {
     display: flex;
     justify-content: space-around;
+    font-size: 12px;
     align-items: center;
     border-bottom: 1px solid #0abb0a;
     background-color: rgb(0, 0, 0);
     border-radius: 8px 20px;
     height: 6vh;
-    font-family: Courier;;
+    font-family: Courier;
     color: white;
   }
   h2{
     text-align: center;
-    color: white;
+    color: #0abb0a;
+    border-color: aliceblue;
     font-size: 50px;
     font-style: oblique;
     font-weight: 10;
